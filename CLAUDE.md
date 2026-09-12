@@ -18,3 +18,7 @@ Simplicity is the goal in everything here — prose, code, and commits alike.
 - Keep the message short. A subject line alone is the default; add a body only when the diff cannot explain why.
 - Never commit on your own. Show the staged changes and the proposed message, then wait for the developer's approval.
 - Never put a Claude session URL in a commit message or a PR description. This is a public repository. `Co-Authored-By` is enough.
+
+## Pull requests
+
+- When the code on a PR changes, update its description in the same push. A description that no longer matches the diff misleads the reviewer.
