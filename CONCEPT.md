@@ -15,7 +15,7 @@ Write → translate → fix it if you want → post. Posting in your own languag
 ## Out of scope
 
 - **Reading.** Other people's posts are not hidden — they do not exist. No timeline, likes, follows or analytics either.
-- **Scheduling (v1).** It needs an always-on server. The design leaves room for it.
+- **Scheduling (v1).** It needs somewhere to store what to post later. The design leaves room for it.
 
 ## Decisions
 
