@@ -17,7 +17,7 @@
 
 ### P1-1. 足場を入れる
 
-- [ ] **やること**: `package.json`、`cloudflare.config.ts`、`vite.config.ts`、`tsconfig.json`、`.gitignore`（`.env` と `.dev.vars`）、`.tool-versions`、CI、Dependabot を置く。入れる道具は `cf`（Vite プラグイン込み）と TypeScript だけ。`lint` は型チェック、`test` は Node 標準のテスト、`build` はデプロイの予行
+- [x] **やること**: `package.json`、`cloudflare.config.ts`、`vite.config.ts`、`tsconfig.json`、`.gitignore`（`.env` と `.dev.vars`）、`.tool-versions`、CI、Dependabot を置く。入れる道具は `cf`（Vite プラグイン込み）と TypeScript だけ。`lint` は型チェック、`test` は Node 標準のテスト、`build` はデプロイの予行
 - **成果物**: 上記のファイル、`src/index.ts`（404 を返すだけ）
 - **DoD**: `npm ci && npm run lint && npm test && npm run build` が exit 0。CI が緑
 
