@@ -1,0 +1,16 @@
+{
+	"name": "bilipost",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"lint": "cf workers types && tsc",
+		"test": "node --test",
+		"build": "cf deploy --dry-run"
+	},
+	"devDependencies": {
+		"@cloudflare/vite-plugin": "2.0.0-beta.v.3",
+		"cf": "1.0.0-beta.20",
+		"typescript": "^7.0.2",
+		"vite": "^8.3.4"
+	}
+}

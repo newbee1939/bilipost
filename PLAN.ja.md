@@ -17,13 +17,13 @@
 
 ### P1-1. 足場を入れる
 
-- [ ] **やること**: `package.json`、`wrangler.jsonc`、`tsconfig.json`、`.gitignore`（`.env` と `.dev.vars`）、`.tool-versions`、CI、Dependabot を置く。入れる道具は Wrangler と TypeScript だけ。`lint` は型チェック、`test` は Node 標準のテスト、`build` はデプロイの予行
+- [ ] **やること**: `package.json`、`cloudflare.config.ts`、`vite.config.ts`、`tsconfig.json`、`.gitignore`（`.env` と `.dev.vars`）、`.tool-versions`、CI、Dependabot を置く。入れる道具は `cf`（Vite プラグイン込み）と TypeScript だけ。`lint` は型チェック、`test` は Node 標準のテスト、`build` はデプロイの予行
 - **成果物**: 上記のファイル、`src/index.ts`（404 を返すだけ）
 - **DoD**: `npm ci && npm run lint && npm test && npm run build` が exit 0。CI が緑
 
 ### P1-2. 画面の骨組みをデプロイする
 
-- [ ] **やること**: `public/index.html` に、母語の欄、英語の欄、翻訳ボタン、投稿ボタンを置く（まだ動かない）。`npx wrangler deploy` で置き、Cloudflare Access を設定する
+- [ ] **やること**: `public/index.html` に、母語の欄、英語の欄、翻訳ボタン、投稿ボタンを置く（まだ動かない）。`npx cf deploy` で置き、Cloudflare Access を設定する
 - **成果物**: `public/index.html`
 - **DoD**: `curl -sI <URL>` が Access のログイン画面への転送（302）を返す。スマホでログインすると画面が出る
 
