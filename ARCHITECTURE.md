@@ -32,7 +32,7 @@ TypeScript (JavaScript with types). No external libraries, only what Workers pro
 - **The mainstream on Workers:** The official docs and examples are mostly TypeScript, so answers are easy to find
 - **Same language as the screen:** The screen is written in JavaScript anyway. With the server in the same family, there is one language to learn
 - **Built-in features are enough:** What is needed (calling external APIs, JSON) is already there, so no external library is added
-- **The tool does the conversion:** Workers runs JavaScript, so TypeScript has to be converted. The deploy tool (Wrangler) does this automatically, so there is no build step to set up
+- **The tool does the conversion:** Workers runs JavaScript, so TypeScript has to be converted. The Cloudflare CLI (`cf`) does this automatically with its Vite plugin, so there is no build step to set up
 
 ## Screen
 

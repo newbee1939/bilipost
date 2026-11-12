@@ -32,7 +32,7 @@ TypeScript（型を書ける JavaScript）。外部ライブラリを使わず�
 - **Workers の本流:** 公式のドキュメントも例も TypeScript が中心で、調べやすい
 - **画面と同じ言語:** 画面はどのみち JavaScript で書く。サーバも同じ系統なら、覚える言語が 1 つで済む
 - **標準の機能で足りる:** 必要なもの（外部 API の呼び出し、JSON）が揃っているので、外部ライブラリを足さずに済む
-- **変換は道具がやる:** Workers が動かせるのは JavaScript なので、TypeScript からの変換が要る。これはデプロイの道具（Wrangler）が自動でやるので、自分で工程を組まない
+- **変換は道具がやる:** Workers が動かせるのは JavaScript なので、TypeScript からの変換が要る。これは Cloudflare の CLI（`cf`）が Vite のプラグインで自動でやるので、自分で工程を組まない
 
 ## 画面
 
